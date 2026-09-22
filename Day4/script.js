@@ -1,3 +1,46 @@
+// Loop:
+
+// for-loop:
+// Syntax
+// for (initialization; condition; increment) {
+//   // code to run
+// }
+
+// for (let i = 1; i <= 5; i++) {
+//   console.log(i);
+// }
+
+// let numbers = [10, 20, 30, 40, 50];
+// let sum = 0;
+// for (let i = 0; i < numbers.length; i++) {
+//   sum += numbers[i];
+// }
+// console.log("Total sum:", sum);
+
+// While-loop:
+// Syntax
+// while (condition) {
+//   // code to run
+// }
+
+// let count = 1;
+// while (count <= 5) {
+//   console.log("Count:", count);
+//   count++;
+// }
+
+// do-while:
+// Syntax
+// do {
+//   // code to run
+// } while (condition);
+
+// let num = 1;
+// do {
+//   console.log("Num:", num);
+//   num++;
+// } while (num <= 5);
+
 // Function:
 
 // Syntax:
