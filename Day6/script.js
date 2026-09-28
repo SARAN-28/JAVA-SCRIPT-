@@ -45,6 +45,19 @@
 
 // clearInterval(intervalId)
 
+// Eg:
+// let count = 1;
+
+// let interval = setInterval(function(){
+
+//     console.log(count);
+//     count++
+
+//     if(count>5){
+//         clearInterval(interval)
+//     }
+// },2000)
+
 
 // Error Handling:
 // Error handling is used to prevent the program from crashing when an error occurs.
@@ -100,6 +113,39 @@
 // catch (error) {
 //     console.log(error.message)
 // }
+
+
+// localStorage::
+
+// What is localStorage?
+// localStorage stores data in the browser as key-value pairs.
+
+// Data remains even after:
+// Page refresh
+// Browser restart
+// until manually removed.
+
+// Store Data:
+// localStorage.setItem("name", "Saran");
+
+// Get Data:
+// let name = localStorage.getItem("name");
+// console.log(name);
+
+// Remove Data:
+// localStorage.removeItem("name");
+
+// Clear All Data:
+// localStorage.clear();
+
+// Storing and Retrieving an Object:
+// Store as string:
+// let user = { name: "Saran", age: 28 };
+// localStorage.setItem("user", JSON.stringify(user));
+
+// String to Object:
+// let retrievedUser = JSON.parse(localStorage.getItem("user"));
+// console.log(retrievedUser.name);
 
 //Document Object Model
 
