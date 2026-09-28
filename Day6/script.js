@@ -115,6 +115,19 @@
 // }
 
 
+// Hoisting:
+// Variable Hoisting:
+
+// console.log(a)
+// var a = 10;
+
+// console.log(b)
+// let b =10;
+
+// console.log(c)
+// const c = 10
+
+
 // localStorage::
 
 // What is localStorage?
@@ -127,25 +140,31 @@
 
 // Store Data:
 // localStorage.setItem("name", "Saran");
+// sessionStorage.setItem("name", "Java Script")
 
 // Get Data:
 // let name = localStorage.getItem("name");
 // console.log(name);
+// let name = sessionStorage.getItem("name");
+// console.log(name)
 
 // Remove Data:
 // localStorage.removeItem("name");
+// sessionStorage.removeItem("name")
 
 // Clear All Data:
 // localStorage.clear();
 
 // Storing and Retrieving an Object:
 // Store as string:
-// let user = { name: "Saran", age: 28 };
-// localStorage.setItem("user", JSON.stringify(user));
+let user = { name: "Saran", age: 28 };
+localStorage.setItem("user", JSON.stringify(user));
 
 // String to Object:
-// let retrievedUser = JSON.parse(localStorage.getItem("user"));
-// console.log(retrievedUser.name);
+let retrievedUser = JSON.parse(localStorage.getItem("user"));
+console.log(retrievedUser);
+
+
 
 //Document Object Model
 
