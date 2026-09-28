@@ -157,12 +157,12 @@
 
 // Storing and Retrieving an Object:
 // Store as string:
-let user = { name: "Saran", age: 28 };
-localStorage.setItem("user", JSON.stringify(user));
+// let user = { name: "Saran", age: 28 };
+// localStorage.setItem("user", JSON.stringify(user));
 
 // String to Object:
-let retrievedUser = JSON.parse(localStorage.getItem("user"));
-console.log(retrievedUser);
+// let retrievedUser = JSON.parse(localStorage.getItem("user"));
+// console.log(retrievedUser);
 
 
 
