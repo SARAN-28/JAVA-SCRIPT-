@@ -23,14 +23,12 @@
 // }
 
 
-document.getElementById("form").addEventListener("submit", function(e) {
+// document.getElementById("form").addEventListener("submit", function(e) {
 
-    e.preventDefault();
+//     e.preventDefault();
+//     let name = document.getElementById("name").value;
 
-    let name = document.getElementById("name").value;
-
-    if (name === "") {
-        alert("Name is required");
-    }
-
-});
+//     if (name === "") {
+//         alert("Name is required");
+//     }
+// });
