@@ -21,3 +21,15 @@
 // function fun(event){
 //     console.log(event.key);  
 // }
+
+
+document.getElementById("form").addEventListener("submit", function(e) {
+
+  let name = document.getElementById("name").value;
+
+  if (name === "") {
+    alert("Name is required");
+    e.preventDefault();
+  }
+
+});
