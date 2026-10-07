@@ -31,6 +31,50 @@
 // }
 // demo()
 
+// Focus and Blur:
+// let input = document.getElementById("name")
+// input.addEventListener("focus", () => (input.style.backgroundColor = "lightgreen"))
+// input.addEventListener("blur", () => (input.style.backgroundColor = ""))
+
+// Change:
+// document.getElementById("course").addEventListener("change", (event) => {
+//     document.body.style.backgroundColor = event.target.value;
+// });
+
+// Drag and Drop Event:
+// let dragItem = document.getElementById("dragitem");
+// dragItem.addEventListener("dragstart", () => console.log("Drag started"));
+// dragItem.addEventListener("dragend", () => console.log("Drag ended"))
+
+// Load:
+// window.addEventListener("load", () => {
+//     console.log("Page loaded");
+// });
+
+// Resize:
+// window.addEventListener("resize", () => {
+//     console.log("Window resized");
+// });
+
+// Scroll
+// window.addEventListener("scroll", () => {
+//     console.log("Page scrolled");
+// });
+
+// Collextions:
+// let items = document.getElementsByTagName("h2");
+
+// console.log(items);
+// console.log(items[0]);
+// console.log(items[0].textContent);
+
+// Node List:
+// let items = document.querySelectorAll(".item");
+
+// console.log(items);
+// console.log(items[0]);
+// console.log(items[0].textContent);
+
 //Storage:
 //Local storage:-Premanant Storage
 // Session storage:-Temporary Storage
