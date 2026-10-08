@@ -96,3 +96,270 @@
 // obj.work1()
 // obj.work2()
 // obj.greets()
+
+
+// 1.What is OOP ::
+
+// OOP = Object-Oriented Programming
+// It is a way of writing programs by organizing code around objects.
+
+// Example :
+
+// Student
+// ├── Properties → name, age, course
+// └── Behaviours → study(), attendClass()
+
+// class Student {
+
+//     name = "Saran";
+//     age = 22;
+//     course = "MCA";
+
+//     study(){
+//         console.log("Student is studying");
+//     }
+
+//     attendClass(){
+//         console.log("Student is attending class");
+//     }
+// }
+
+// 2. Object ::
+
+// An object is an actual instance created from a class.
+
+// Example:
+
+// class Student {
+
+//     name = "Saran";
+
+//     study(){
+//         console.log("Studying");
+//     }
+// }
+
+// let student1 = new Student();
+
+// console.log(student1.name);
+
+// student1.study();
+
+// Student → Class / Blueprint
+// student1 → Object
+
+// 3. Class ::
+
+// A class is a blueprint/template for creating objects.
+
+// Example:
+
+// class Student {
+
+// }
+
+// This is only a blueprint.
+
+// We can create objects from it:
+
+// let student1 = new Student();
+// let student2 = new Student();
+
+// Now:
+
+//              Student
+//               Class
+//                 ↓
+//         ┌───────┴───────┐
+//         ↓               ↓
+//     student1         student2
+
+// 4. Property ::
+
+// A property stores data/information about an object.
+
+// Example:
+
+// class Student {
+
+//     name = "Saran";
+//     age = 22;
+//     course = "MCA";
+
+// }
+
+// These are properties:
+
+// name   → "Saran"
+// age    → 22
+// course → "MCA"
+
+// We can access them:
+
+// let student1 = new Student();
+
+// console.log(student1.name);
+// console.log(student1.age);
+// console.log(student1.course);
+
+// 5. Method ::
+
+// A method is a function inside a class/object that represents behaviour or action.
+
+// Example:
+
+// class Student {
+
+//     name = "Saran";
+
+//     study(){
+//         console.log("Student is studying");
+//     }
+
+// }
+
+// Here:
+// name = "Saran";
+
+// is a property.
+
+// study(){
+//     console.log("Student is studying");
+// }
+
+// is a method.
+
+// Call the method:
+
+// let student1 = new Student();
+
+// student1.study();
+
+// Output:
+
+// Student is studying
+
+// Easy memory:
+
+// Property = What the object has
+// Method = What the object does
+
+// 6. Constructor ::
+
+// A constructor is a special method that automatically runs when an object is created.
+
+// Syntax:
+
+// class Student {
+
+//     constructor(){
+//         console.log("Student object created");
+//     }
+
+// }
+
+// Now:
+
+// let student1 = new Student();
+
+// As soon as new Student() runs, the constructor automatically runs.
+
+// Output:
+
+// Student object created
+
+// Why do we use constructor?
+
+// Usually, we use it to give values to the object when it is created.
+
+// class Student {
+
+//     constructor(name, age){
+//         this.name = name;
+//         this.age = age;
+//     }
+
+// }
+
+// let student1 = new Student("Saran", 22);
+
+// console.log(student1.name);
+// console.log(student1.age);
+
+// Output:
+
+// Saran
+// 22
+
+// 7. new ::
+
+// new is used to create an object from a class.
+
+// class Student {
+
+// }
+
+// let student1 = new Student();
+
+// Here:
+
+// class Student
+//       ↓
+//      new
+//       ↓
+// student1 object
+
+// Without new:
+
+// let student1 = Student();
+
+// You cannot normally call a class like a regular function.
+
+// So remember:
+
+// new creates an object from a class.
+
+// 8. this
+
+// this refers to the current object in a class method/constructor.
+
+// Look at this:
+
+// class Student {
+
+//     constructor(name, age){
+//         this.name = name;
+//         this.age = age;
+//     }
+
+// }
+
+// Create an object:
+
+// let student1 = new Student("Saran", 22);
+
+// Now:
+
+// this.name
+
+// refers to the current object's name.
+
+// Eg ::
+
+// class Student {
+//     constructor(name, age, course){
+//         this.name = name;
+//         this.age = age;
+//         this.course = course;
+//     }
+//     study(){
+//         console.log(this.name + " is studying");
+//     }
+// }
+
+// let student1 = new Student("Saran", 22, "MCA");
+// console.log(student1.name);
+// console.log(student1.age);
+// console.log(student1.course);
+
+// student1.study();
