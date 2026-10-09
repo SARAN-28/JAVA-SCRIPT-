@@ -10,67 +10,76 @@
 // 4.Polymorphism
 
 // 1.Inheritance:
+// Inheritance is an OOP concept in which one class can use properties and methods from another class..
 
 // Single Inheritance:
+// Single inheritance means one child class inherits from one parent class.
+
 // class base{
 //     father(){
 //         console.log("Working");
 //     }
 // }
-// class child extends father(){
+// class child extends base{
 //     son(){
 //         console.log("Playing");
 //     }
 // }
-// let obj=new child
+// let obj=new child()
 // obj.son()
 // obj.father()
 
 // Multilevel Inheritance:
-// class grandfather{
-//     gfather(){
+// Multiple inheritance means one child class inherits features from more than one parent class.
+
+// class grandfather {
+//     gfather() {
 //         console.log("Rest");
 //     }
 // }
-// class father extends grandfather{
-//     fath(){
+// class father extends grandfather {
+//     fath() {
 //         console.log("Working");
 //     }
 // }
-// class child extends father(){
-//     son(){
+// class child extends father {
+//     son() {
 //         console.log("Playing");
 //     }
 // }
-// let obj=new child
-// obj.son()
-// obj.fath()
-// obj.gfather()
+// let obj = new child();
+// obj.son();
+// obj.fath();
+// obj.gfather();
 
-// Hirerchical:
-// class father{
-//     Worker(){
-//         console.log("Age 40")
+// Hirerchical Inheritance:
+// Hierarchical inheritance means multiple child classes inherit from the same parent class.
+
+// class father {
+//     Worker() {
+//         console.log("Age 40");
 //     }
 // }
-// class child1 extends father{
-//     study(){
-//         console.log("Age 25")
+// class child1 extends father {
+//     study() {
+//         console.log("Age 25");
 //     }
 // }
-// class child2 extends father{
-//     play(){
-//         console.log("Age 5")
+// class child2 extends father {
+//     play() {
+//         console.log("Age 5");
 //     }
 // }
-// let obj1=new child1
-// obj1.study()
-// obj1.Worker()
-// let obj2=new child2
-// obj2.study()
-// obj2.Worker()
+// let obj1 = new child1();
+// obj1.study();
+// obj1.Worker();
+// let obj2 = new child2();
+// obj2.play();
+// obj2.Worker();
 
 // Multiple Inheritance:
+// Multiple inheritance means combining features from multiple parent sources in one child.
+
 // class base{
 //     greets(){
 //         console.log("Hello");
@@ -96,7 +105,6 @@
 // obj.work1()
 // obj.work2()
 // obj.greets()
-
 
 // 1.What is OOP ::
 
