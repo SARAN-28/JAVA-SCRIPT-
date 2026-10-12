@@ -1,4 +1,6 @@
 // Encapsulation:
+// Encapsulation involves controlling access to the data inside a class
+
 // -Public -> default        -  access to anywhere
 // -Private ->using #        -  access only inside the class
 // -Protector ->using _      -  JS doen not support the protector
@@ -51,10 +53,29 @@
 // obj.son()
 // obj.son2()
 
+// Abstraction:
+// Abstraction means hiding the internal implementation and showing only the necessary functionality to the user.
+
+// class Car {
+//     start() {
+//         this.#startEngine();
+//         console.log("Car started");
+//     }
+
+//     #startEngine() {
+//         console.log("Engine is starting...");
+//     }
+// }
+
+// let obj = new Car();
+
+// obj.start();
 
 // // Polymorphism:
-// -MethodOverRiding      -Same method but different name 
-// -MethodOverLoading     -Same name but different parameters
+// Polymorphism means “one name, many forms.”
+
+// -MethodOverRiding      - Same method name, but different implementation in the parent and child classes.
+// -MethodOverLoading     - Same method name, but different parameter lists.
 
 // MethoOverRiding:
 // class base1{
@@ -86,7 +107,7 @@
 // obj3.display()
 // obj4.display()
 
-//MethodOverLoading:
+// MethodOverLoading:
 // class base{
 //     display(a){
 //         return a
@@ -99,30 +120,30 @@
 //     }
 // }
 // let obj=new base
-// console.log(obj.display(10));       (or)
-// console.log(obj.display(10,20));    (or)
+// console.log(obj.display(10));       //(or)
+// console.log(obj.display(10,20));    //(or)
 // console.log(obj.display(10,20,30));
 
         // (Another way)
 
-class base{
-    add(a,b,c,d){
-        if(arguments.length==1){
-            return a
-        }
-        else if(arguments.length==2){
-            return a+b
-        }
-        else if(arguments.length==3){
-            return a+b+c
-        }
-        else{
-            return a+b+c+d
-        }
-    }
-}
-let obj=new base
-console.log(obj.add(10));
-console.log(obj.add(10,20));
-console.log(obj.add(10,20,30));
-console.log(obj.add(10,20,30,40));
+// class base{
+//     add(a,b,c,d){
+//         if(arguments.length==1){
+//             return a
+//         }
+//         else if(arguments.length==2){
+//             return a+b
+//         }
+//         else if(arguments.length==3){
+//             return a+b+c
+//         }
+//         else{
+//             return a+b+c+d
+//         }
+//     }
+// }
+// let obj=new base
+// console.log(obj.add(10));
+// console.log(obj.add(10,20));
+// console.log(obj.add(10,20,30));
+// console.log(obj.add(10,20,30,40));
