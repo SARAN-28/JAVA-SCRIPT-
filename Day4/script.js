@@ -1,3 +1,85 @@
+// Conditional Statement (Decision Making Statement):
+// 1. if statement              — Executes code when a condition is true.
+// 2. if-else statement         — Chooses between two blocks.
+// 3. if-else if-else ladder    — Checks multiple conditions in sequence.
+// 4. Nested if statement       — An if statement inside another if statement.
+// 5. switch statement          — Selects a block based on matching values.
+
+// 1. if statement:
+// Meaning: Executes the code only when the condition is true.
+
+// let age = 20;
+
+// if (age >= 18) {
+//     console.log("Eligible to vote");
+// }
+
+// 2. if-else statement:
+// Meaning: Executes one block if the condition is true; otherwise, executes the else block.
+
+// let number = 7;
+
+// if (number % 2 == 0) {
+//     console.log("Even number");
+// } else {
+//     console.log("Odd number");
+// }
+
+// 3. if-else if-else ladder:
+// Meaning: Used to check multiple conditions one by one. When a condition is true, its block executes.
+
+// let mark = 75;
+
+// if (mark >= 90) {
+//     console.log("Grade A");
+// }
+// else if (mark >= 70) {
+//     console.log("Grade B");
+// }
+// else if (mark >= 50) {
+//     console.log("Grade C");
+// }
+// else {
+//     console.log("Fail");
+// }
+
+// 4. Nested if statement:
+// Meaning: An if statement written inside another if statement.
+
+// let age = 20;
+// let hasID = true;
+
+// if (age >= 18) {
+//     if (hasID == true) {
+//         console.log("You can enter");
+//     }else{
+//         console.log("Bring your ID")
+//     }
+// }else{
+//         console.log("Not Eligible to vote")
+// }
+
+// 5. switch statement:
+// Meaning: Selects a block of code based on the matching value of an expression.
+
+// let day = 2;
+
+// switch (day) {
+//     case 1:
+//         console.log("Monday");
+//         break;
+//     case 2:
+//         console.log("Tuesday");
+//         break;
+//     case 3:
+//         console.log("Wednesday");
+//         break;
+//     default:
+//         console.log("Invalid day");
+// }
+
+
+
 // Loop:
 
 // for-loop:
