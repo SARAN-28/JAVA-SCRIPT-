@@ -106,12 +106,17 @@
 // let vote = age>=18?"Allowed":"Not Allowed";
 // console.log(vote)
 
+// Type Operator:
+// Used to iden fy or manipulate types of variables.
 
-
-
-
-
-
+// console.log(typeof "Helloo")
+// let  a = 5
+// console.log(typeof a)
+// console.log(typeof true)
+// let b;
+// console.log(typeof b)
+// let c = null
+// console.log(c)
 
 
 
