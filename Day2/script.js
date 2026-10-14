@@ -109,6 +109,7 @@
 // Type Operator:
 // Used to iden fy or manipulate types of variables.
 
+// TypeOf:
 // console.log(typeof "Helloo")
 // let  a = 5
 // console.log(typeof a)
@@ -118,6 +119,10 @@
 // let c = null
 // console.log(c)
 
+// InstanceOf:
+console.log([] instanceof Array)
+console.log({} instanceof Object)
+console.log(function() {} instanceof Function)
 
 
 
