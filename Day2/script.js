@@ -120,9 +120,9 @@
 // console.log(c)
 
 // InstanceOf:
-console.log([] instanceof Array)
-console.log({} instanceof Object)
-console.log(function() {} instanceof Function)
+// console.log([] instanceof Array)
+// console.log({} instanceof Object)
+// console.log(function() {} instanceof Function)
 
 
 
