@@ -36,6 +36,14 @@
 // }
 // demo();
 
+// --------------------------------------------
+// NOTE 16: What is a Data Type?
+// --------------------------------------------
+// A data type tells JavaScript what kind of value a variable holds.
+// JavaScript is dynamically typed: you do not declare the type, JS finds it.
+// let x = 10;     x is a number
+// x = "Hello";    now x is a string (allowed)
+
 // Primitive Datatypes:
 // 1.String ("Hello")
 // 2.Number (1,2.0)
