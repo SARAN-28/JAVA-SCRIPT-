@@ -101,12 +101,62 @@
 // console.log(!(a<b));
 
 // Bitwise Operator:
-// let a=5
-// let b=3
+
+// Decimal to Binary   ->   Machine Language - 0s and 1s
+
+// Decimal  ->   Binary
+//    5     ->   0 and 1
+
+// 5   5%2    2    1
+//     2%2    1    0
+//     1%2    0    1   =  1 0 1
+
+// Binary  ->   0101
+
+// 3   3%2    1    1
+//     1%2    0    1   =  1 1
+
+// Binary  ->   0001
+
+// Binary   ->   Decimal
+
+//     8 4 2 1
+//     0 0 1 1
+//     0 0 2 1   +   3
+
+let a=5
+let b=3
+
+// AND:
+// Both bits must be 1
+    // 0 1 0 1         8 4 2 1
+    // 0 0 0 1         0 0 0 1
+    // -------         0 0 0 1    =   1
+    // 0 0 0 1
 // console.log(a&b)
+
+// OR:
+// At least one bit must be 1
+    // 0 1 0 1        8 4 2 1
+    // 0 0 1 1        0 1 1 1
+    // -------        0 4 2 1     =    7
+    // 0 1 1 1  =  1
 // console.log(a|b)
+
+// XOR:
+// Bits must be different
+// console.log(a ^ b)
+
+// NOT:
+// Reverses all bits
 // console.log(~a)
+
+// Left Shift:
+// Shifts bits left
 // console.log(a<<b)
+
+// Right Shift:
+// Shifts bits right
 // console.log(a>>b)
 
 // Ternary Operator:
@@ -115,7 +165,7 @@
 // console.log(vote)
 
 // Type Operator:
-// Used to iden fy or manipulate types of variables.
+// Used to identify or manipulate types of variables.
 
 // TypeOf:
 // console.log(typeof "Helloo")
