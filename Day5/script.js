@@ -1,14 +1,60 @@
-// Call Back function and Rest Parameter;
+// CallBack function ::
+// Passed a argument to another function and executed inside that function.
+// - One function is created.
+// - We pass another function as an argument.
+
+// Eg:
+// function hello(callback) {
+//     console.log("Hello");
+
+//     callback();
+// }
+
+// function welcome() {
+//     console.log("Welcome to JavaScript");
+// }
+
+// hello(welcome);
+
+// Rest Parameter ::
+// Pass multiple arguments to a function and collect them into a single array.
 
 // Syntax:
-// (())=>
-// function hello(...e){
-//     return e.reduce((total,num)=>total+num,0)  
+// function functionName(...parameter) {
+//     // Code
 // }
-// console.log(hello(1,2,3,4,5))  
+
+// Eg:
+// function hello(...e) {
+//     console.log(e);
+// }
+
+// hello(10, 20, 30, 40, 50);
 
 
-// Hoi String:      //call the function first
+// Reduce() Method ::
+// It is an array method that reduces all array elements into a single value.
+
+// Syntax :
+// array.reduce((accumulator, currentValue) => {
+//     return accumulator + currentValue;
+// }, initialValue);
+
+// accumulator	    - Stores the accumulated result
+// currentValue	- Current array element
+// initialValue	- Starting value of the accumulator
+
+// Eg:
+// let a = [1, 2, 3, 4, 5];
+
+// let result = a.reduce((total, num) => {
+//     return total + num;
+// }, 0);
+
+// console.log(result);  
+
+
+// Hoisting:      //call the function first
 // hello()
 // function hello(){
 //     console.log("Saran")
