@@ -165,8 +165,29 @@
 // console.log(retrievedUser);
 
 
+// Document Object Model ::
 
-//Document Object Model
+// 1. What is DOM?
+// DOM stands for Document Object Model.
+
+// DOM is a programming interface that 
+// It allows JavaScript to access, read, modify, add, and remove HTML elements and their content.
+
+// - HTML is used to create the structure of a webpage.
+// - CSS is used to design the webpage.
+// - JavaScript is used to make the webpage interactive.
+// - DOM acts as a connection between HTML and JavaScript.
+
+// 2. How does DOM work?
+// When a browser loads an HTML document, it reads the HTML and creates a DOM tree.
+
+// Document	    - Represents the entire HTML document
+// html	        - Root element
+// head	        - Contains page information
+// title	    - Contains webpage title
+// body	        - Contains visible webpage content
+// h1	        - Heading element
+// p	        - Paragraph element
 
 // console.log(document.title)
 // console.log(document.URL)
@@ -200,7 +221,7 @@
 // let a=document.createElement("div")
 // a.setAttribute("id","my-div")
 // a.textContent="Create a Element, Set an Attribute, Type the content and Append to body"
-// document.body.append("a")
+// document.body.append(a)
 // console.log(a);
 
 // let a=document.createElement("div")
@@ -221,8 +242,3 @@
 // let p=document.createElement('p')
 // p.textContent="This is Replacing Element"
 // document.body.replaceChild(p,a)
-
-
-
-
-
