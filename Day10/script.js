@@ -1,13 +1,23 @@
-//Promise:
+// 1. What is Promise? ::
+// Promise is a JavaScript object used to handle asynchronous operations.
 
-//Syntax:
-// function functionname(){
+// 2. Three states of a Promise :
+// Pending	    - Waiting for the result
+// Fulfilled	- Operation successful
+// Rejected	    - Operation failed
+
+// Once a Promise is fulfilled or rejected, its state cannot change again.
+
+// 3. Promise Syntax :
+// function functionname() {
 //     return new Promise((resolve, reject) => {
-        
-//     })
-// }
-// functionname()
 
+//     });
+// }
+
+// functionname();
+
+// Eg:
 // let a=true
 // function order(){
 //     return new Promise((resolve, reject) => {

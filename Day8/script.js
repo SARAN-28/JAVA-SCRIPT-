@@ -1,4 +1,25 @@
-// Event Listener:
+// JavaScript DOM – Event Listener ::
+// 1. What is an Event?
+// An event is an action that happens in a web browser.
+
+// For example:
+// - Clicking a button.
+// - Moving the mouse.
+// - Pressing a keyboard key.
+// - Typing inside an input field.
+// - Submitting a form.
+// JavaScript can detect these events and perform specific actions.
+
+// 2. What is an Event Listener?
+// It used to listen for a particular event on an HTML element and execute a function when that event occurs.
+
+// Syntax :
+// element.addEventListener("event", function);
+
+// element	            - HTML element we want to target
+// addEventListener()	- Method used to attach an event
+// "click"	            - Event name
+// function	            - Code that executes when the event occurs
 
 // let btn=document.getElementById("btn")
 // btn.addEventListener("click",()=>{
@@ -8,12 +29,13 @@
 //     a.textContent="My name is Saran"
 // })
 
-// document.getElementById("formclick").addEventListener("submit",(e)=>{
-//     e.preventDefault()
-//     let username=document.getElementById("username").value
-//     console.log(username);
-// })
 
+// function fun(event){
+//     console.log(event.key);  
+// }
+
+
+// Form Validation ::
 
 // function fun(username){
 //     const user=/^[a-zA-Z0-9_]{3,16}$/

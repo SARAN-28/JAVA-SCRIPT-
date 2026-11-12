@@ -1,4 +1,4 @@
-// fetch('https://jsonplaceholder.typicode.com/users')
+// fetch('https://fakestoreapi.com/products')
 // .then((products)=>{
 //     if(!products.ok){
 //         throw new Error("Product is not found");

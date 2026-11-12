@@ -17,18 +17,3 @@
 //     a.style.backgroundColor="green"
 //     a.style.color="white"
 // }
-
-// function fun(event){
-//     console.log(event.key);  
-// }
-
-
-// document.getElementById("form").addEventListener("submit", function(e) {
-
-//     e.preventDefault();
-//     let name = document.getElementById("name").value;
-
-//     if (name === "") {
-//         alert("Name is required");
-//     }
-// });
